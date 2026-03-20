@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
   <title>Kerry Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f7fa;
+    }
+    .hero {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>歡迎來到我的網站</h1>
+
+<!-- 🔹 自我介紹 -->
+<section class="hero">
+  <h1>👋 我是 Kerry</h1>
+  <p class="lead">Java 開發學習中｜網站 + 機器人開發</p>
+  <a href="https://github.com/kerrychen1122" target="_blank" class="btn btn-light mt-3">我的 GitHub</a>
+</section>
+
+<!-- 🔹 專案區 -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">🚀 我的專題 / 工具</h2>
+
+  <div class="row">
+
+    <!-- 專案1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">文字轉語音工具</h5>
+          <p class="card-text">將文字轉換成語音的網站工具</p>
+          <a href="#" class="btn btn-primary">Demo</a>
+          <a href="#" class="btn btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 專案2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">API 測試工具</h5>
+          <p class="card-text">簡單測試 API 的小工具</p>
+          <a href="#" class="btn btn-primary">Demo</a>
+          <a href="#" class="btn btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 專案3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">未來專案</h5>
+          <p class="card-text">之後會放更多東西</p>
+          <a href="#" class="btn btn-primary">Demo</a>
+          <a href="#" class="btn btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </body>
 </html>
